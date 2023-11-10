@@ -1,0 +1,292 @@
+
+body{
+    background-color: #ffffff;
+    /* font-family: 'Sue Ellen Francisco', cursive; */
+    /* font-family: 'Sue Ellen Francisco'; */
+    /* font-family: 'Edu NSW ACT Foundation'; */
+    /* font-family: 'Roboto', cursive; */;
+    /* font-family: 'Rajdhani', sans-serif; */
+    font-family: 'Caveat', cursive;
+    
+}
+    
+    
+
+    
+    
+h1{
+    font-size: 45px;
+}
+h2{
+    font-size: 40px;
+}
+ul{
+    font-size: 17px;
+}
+p{
+    font-size: 20px;
+}
+
+   
+
+header{
+    /* background-image: url("./asset/bg.jpg"); */
+    background-color: #fca311;
+    background-size: cover;
+    height: auto;
+    width: auto;
+}
+    
+    
+    
+.header{
+    
+    padding-top: 5%;
+}
+#ilustracion{
+    width: 400px;
+    height: auto;
+    /* border : 1px solid white;
+    border-radius: 100%;
+    padding: 10px; */
+}
+.colorFuentes{
+    color: white;
+    /* text-shadow: rgb(4, 4, 4) 1px 0  */
+}
+.colorFuente2{
+    color:rgb(40, 41, 40);
+    
+}
+
+
+.navbarM{
+    background-color: rgb(0, 0, 0);
+    height: 60px;
+    /* opacity: 95%; */
+}
+.bgHamburger{
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px;
+    margin-top: 10px;
+    padding-left: 15px;
+}
+
+#footer{
+    background-color: #fca311;
+    height: 50px;
+    padding-top: 1%;
+    
+}
+
+.iconFooter{
+    color: white;
+    text-decoration: none;
+}
+
+
+img{
+    height: auto;
+    width: 100%;
+}
+.icono{
+    height: auto;
+    width: 150px;
+   margin: 100px;
+}
+#inicio{
+    width: 100%;
+}
+
+#proyectos{
+    background-color: #fca311;
+    height: 100%;
+    border-radius: 5px;
+    /* border: 0.5px solid rgb(0, 0, 0); */
+}
+
+#estudios{
+    background-color: #fca311;
+    height: 100%;
+    border-radius: 5px;
+    /* border: 1px solid white; */
+}
+#contacto{
+    background-color: #fca311;
+    height: auto;
+    border-radius: 5px;
+    /* border: 1px solid white; */
+
+}
+#galeria{
+    
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+#galeria2{
+    
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+#dibujo{
+    
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.certificado{
+    height: 200px;
+    width: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.colorCard{
+    background-color: #fca311;
+
+}
+.cardRedonda{
+    background-color: #fca311;
+    width: 300px;
+    height: 300px;
+    border: 1px solid rgba(254, 254, 254, 1);
+    border-radius: 100%;
+    margin-bottom: 60px;
+    
+}
+.imgRedonda{
+    width: 220px;
+    height: 220px;
+    border: 2px solid rgba(254, 254, 254, 1);
+    border-radius: 100%;
+    margin-top: 5%;
+   
+}
+.btnRedondo{
+    width: 70px;
+    height: 70px;
+    border: 1px solid rgba(254, 254, 254, 1);
+    border-radius: 100%;
+    background-color: rgba(64, 99, 228, 1);
+    color: rgba(243, 230, 224, 1);
+    margin: 18px;
+    -webkit-box-shadow: 0px 5px 12px -4px rgba(0,0,0,0.73);
+    -moz-box-shadow: 0px 5px 12px -4px rgba(0,0,0,0.73);
+    box-shadow: 0px 5px 12px -4px rgba(0,0,0,0.73);
+}
+.imgCuadradaCard{
+    padding: 5%;
+    border-radius: 5px;
+}
+
+.cardCuadrada{
+    width: 300px;
+    height: 400px;
+    border-radius: 5px;
+    border: 1px solid rgba(254, 254, 254, 1);
+    margin: 20px;
+
+}  
+.imgCardProyecCuadrada{
+    width: 200px;
+    height: 70%;
+    border: 1px solid rgba(254, 254, 254, 1);
+    margin-top: 5%;
+    border-radius: 5px;
+}  
+.btnCuadrado{
+    width: 100px;
+    height: 40px;
+    border: 1px solid rgba(254, 254, 254, 1);
+    border-radius: 5px;
+    background-color: rgba(64, 99, 228, 1);
+    color: rgba(243, 230, 224, 1);
+    margin: 10%;
+    -webkit-box-shadow: 0px 5px 12px -4px rgba(0,0,0,0.73);
+    -moz-box-shadow: 0px 5px 12px -4px rgba(0,0,0,0.73);
+    box-shadow: 0px 5px 12px -4px rgba(0,0,0,0.73);
+}
+.subTitulos{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    /* text-shadow: rgb(4, 4, 4) 1px 0  */
+    
+}
+   
+
+.fotoModal{
+    width: 600px;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.bgModal{
+    background-color: #fca311;
+}
+.galeria{
+    background-color: #fca311;
+    height: 100%;
+    border-radius: 5px;
+    border: 1px dashed rgb(255, 255, 255);
+
+}
+
+    
+
+    
+   
+.fuenteNav{
+    color: white;
+}
+.containerCuadro{
+    width: 260px;
+    height: 310px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+.imgCuadros{
+    /* width: 300px; */
+    height: 285px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.containerCuadro2{
+    width: 300px;
+    height: 250px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+.imgCuadros2{
+    width: 310px;
+    height: 225px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.containerDibujo{
+    width: 260px;
+    height: 350px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+   
+}
+.imgDibujo{
+    width: 240px;
+    height: 325px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.pl{
+    background-color: #fca311;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 100%;
+}
+    
+
+  
+  
