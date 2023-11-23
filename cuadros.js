@@ -1,11 +1,11 @@
 // Mostrar fotos en galeria
 let fotos = [
-    {id:1, nombre: "¿Por que tanta pena?",    tipo: "Acrílico", img: "./asset/1.jpeg"},
-    {id:2, nombre: "Pensando en ella",        tipo: "Acrílico", img: "./asset/2.jpeg"},
-    {id:3, nombre: "Desnuda sobre la hierba", tipo: "Acrílico", img: "./asset/3.jpeg"},
-    {id:4, nombre: "La chelista",             tipo: "Acrílico", img: "./asset/4.jpeg"},
-    {id:5, nombre: "El caminante",            tipo: "Acrílico", img: "./asset/5.jpeg"},
-    {id:6, nombre: "El chucaro",              tipo: "Acrílico", img: "./asset/6.jpeg"},
+    {id:1, nombre: "¿Por que tanta pena?",    tipo: "Acrílico", img: "./asset/obras/1.jpeg"},
+    {id:2, nombre: "Pensando en ella",        tipo: "Acrílico", img: "./asset/obras/2.jpeg"},
+    {id:3, nombre: "Desnuda sobre la hierba", tipo: "Acrílico", img: "./asset/obras/3.jpeg"},
+    {id:4, nombre: "La chelista",             tipo: "Acrílico", img: "./asset/obras/4.jpeg"},
+    {id:5, nombre: "El caminante",            tipo: "Acrílico", img: "./asset/obras/5.jpeg"},
+    {id:6, nombre: "El chucaro",              tipo: "Acrílico", img: "./asset/obras/6.jpeg"},
     
 ]
 
@@ -47,9 +47,9 @@ mostrarFotos(fotos)
 
 
 let fotos2 = [
-    {id:1, nombre: "La dulce espera",    tipo: "Acrílico", img: "./asset/horisontal-1.jpeg"},
-    {id:2, nombre: "Escena de cafetín",        tipo: "Acrílico", img: "./asset/horisontal-2.jpeg"},
-    {id:3, nombre: "Barquito de papel", tipo: "Acrílico", img: "./asset/horisontal-3.jpeg"},
+    {id:1, nombre: "La dulce espera",   tipo: "Acrílico", img: "./asset/obras2/horisontal-1.jpeg"},
+    {id:2, nombre: "Escena de cafetín", tipo: "Acrílico", img: "./asset/obras2/horisontal-2.jpeg"},
+    {id:3, nombre: "Barquito de papel", tipo: "Acrílico", img: "./asset/obras2/horisontal-3.jpeg"},
     
 ]
 
@@ -87,12 +87,12 @@ const mostrarFotos2 = (array) =>{
 mostrarFotos2(fotos2)
 
 let dibujos = [
-    {id:1, nombre: "Encierro",                     tipo: "Dibujo", img: "./asset/d1.jpeg"},
-    {id:2, nombre: "Recuerdos de infancia",        tipo: "Dibujo", img: "./asset/d2.jpeg"},
-    {id:3, nombre: "Compañeros",                   tipo: "Dibujo", img: "./asset/d3.jpeg"},
-    {id:4, nombre: "Sueños delibertad",            tipo: "Dibujo", img: "./asset/d4.jpeg"},
-    {id:5, nombre: "Observando la soledad",        tipo: "Dibujo", img: "./asset/d5.jpeg"},
-    {id:6, nombre: "Encierro 2",                   tipo: "Dibujo", img: "./asset/d6.jpeg"},
+    {id:1, nombre: "Encierro",                     tipo: "Dibujo", img: "./asset/dibujos/d1.jpeg"},
+    {id:2, nombre: "Recuerdos de infancia",        tipo: "Dibujo", img: "./asset/dibujos/d2.jpeg"},
+    {id:3, nombre: "Compañeros",                   tipo: "Dibujo", img: "./asset/dibujos/d3.jpeg"},
+    {id:4, nombre: "Sueños delibertad",            tipo: "Dibujo", img: "./asset/dibujos/d4.jpeg"},
+    {id:5, nombre: "Observando la soledad",        tipo: "Dibujo", img: "./asset/dibujos/d5.jpeg"},
+    {id:6, nombre: "Encierro 2",                   tipo: "Dibujo", img: "./asset/dibujos/d6.jpeg"},
     
 ]
 
